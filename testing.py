@@ -17,12 +17,14 @@ class objeto:
 
 # campo para elemetos a prueba
 class campo:
-  def __init__(self):
+  def __init__(self,nombre):
     self.nombre = nombre
     self.elementos = []
     self.estatus = 0
     self.ataque = 0
 
+  def agregar(self):
+    pass
   def status(self):
     pass
   def ataque(self):
@@ -36,5 +38,5 @@ class campo:
 def main():
   pass
 
-if __name__ == "__main__"
+if __name__ == "__main__":
   main()
